@@ -13,6 +13,12 @@
 		7BA3290424FC230600C64B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA3290324FC230600C64B36 /* Assets.xcassets */; };
 		7BA3290724FC230600C64B36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA3290624FC230600C64B36 /* Preview Assets.xcassets */; };
 		7BA3290A24FC230600C64B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BA3290824FC230600C64B36 /* LaunchScreen.storyboard */; };
+		7BA3291224FC252F00C64B36 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3291124FC252F00C64B36 /* MoreView.swift */; };
+		7BA3291424FC30FC00C64B36 /* DummyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3291324FC30FC00C64B36 /* DummyView.swift */; };
+		7BC05BD624FC40FF003D1579 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC05BD524FC40FF003D1579 /* RequestView.swift */; };
+		7BC05BD824FC44CE003D1579 /* FinancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC05BD724FC44CE003D1579 /* FinancesView.swift */; };
+		7BC05BDA24FC4E8B003D1579 /* GradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC05BD924FC4E8B003D1579 /* GradeView.swift */; };
+		7BC05BDC24FC5242003D1579 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC05BDB24FC5242003D1579 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		7BA3290624FC230600C64B36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BA3290924FC230600C64B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BA3290B24FC230600C64B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BA3291124FC252F00C64B36 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		7BA3291324FC30FC00C64B36 /* DummyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyView.swift; sourceTree = "<group>"; };
+		7BC05BD524FC40FF003D1579 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		7BC05BD724FC44CE003D1579 /* FinancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesView.swift; sourceTree = "<group>"; };
+		7BC05BD924FC4E8B003D1579 /* GradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeView.swift; sourceTree = "<group>"; };
+		7BC05BDB24FC5242003D1579 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				7BA3290824FC230600C64B36 /* LaunchScreen.storyboard */,
 				7BA3290B24FC230600C64B36 /* Info.plist */,
 				7BA3290524FC230600C64B36 /* Preview Content */,
+				7BA3291124FC252F00C64B36 /* MoreView.swift */,
+				7BA3291324FC30FC00C64B36 /* DummyView.swift */,
+				7BC05BD524FC40FF003D1579 /* RequestView.swift */,
+				7BC05BD724FC44CE003D1579 /* FinancesView.swift */,
+				7BC05BD924FC4E8B003D1579 /* GradeView.swift */,
+				7BC05BDB24FC5242003D1579 /* HomeView.swift */,
 			);
 			path = "Ulife Reborn";
 			sourceTree = "<group>";
@@ -146,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC05BDC24FC5242003D1579 /* HomeView.swift in Sources */,
+				7BC05BDA24FC4E8B003D1579 /* GradeView.swift in Sources */,
+				7BA3291424FC30FC00C64B36 /* DummyView.swift in Sources */,
 				7BA328FE24FC230500C64B36 /* AppDelegate.swift in Sources */,
+				7BC05BD624FC40FF003D1579 /* RequestView.swift in Sources */,
 				7BA3290024FC230500C64B36 /* SceneDelegate.swift in Sources */,
 				7BA3290224FC230500C64B36 /* ContentView.swift in Sources */,
+				7BA3291224FC252F00C64B36 /* MoreView.swift in Sources */,
+				7BC05BD824FC44CE003D1579 /* FinancesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

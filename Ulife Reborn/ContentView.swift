@@ -13,24 +13,46 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            Text("First View")
-                .font(.title)
+            HomeView()
                 .tabItem {
                     VStack {
-                        Image("first")
-                        Text("First")
+                        Image(systemName: "house")
+                        Text("Home")
                     }
                 }
                 .tag(0)
-            Text("Second View")
-                .font(.title)
+            GradeView()
                 .tabItem {
                     VStack {
-                        Image("second")
-                        Text("Second")
+                        Image(systemName: "book")
+                        Text("Notas e Faltas")
                     }
                 }
                 .tag(1)
+            FinancesView()
+            .tabItem {
+                VStack {
+                    Image(systemName: "dollarsign.circle")
+                    Text("Financeiro")
+                }
+            }
+            .tag(2)
+            RequestView()
+            .tabItem {
+                VStack {
+                    Image(systemName: "tray.and.arrow.up")
+                    Text("Solicitações")
+                }
+            }
+            .tag(3)
+            MoreView()
+            .tabItem {
+                VStack {
+                    Image(systemName: "ellipsis")
+                    Text("Mais")
+                }
+            }
+            .tag(4)
         }
     }
 }
