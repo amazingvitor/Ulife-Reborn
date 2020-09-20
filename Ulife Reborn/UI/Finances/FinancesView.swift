@@ -27,7 +27,6 @@ struct FinancesView: View {
                     
                     // MARK: Content
                     VStack {
-                        
                         ScrollView(.horizontal, showsIndicators: false) {
                             HStack {
                                 Button(action: {}) {
@@ -259,15 +258,18 @@ struct FinancesView: View {
                         
                         Spacer()
                         
-                    }
+                    } 
                     .padding(.horizontal)
                     Spacer()
                 }
+                
             }
+                
             .edgesIgnoringSafeArea(.all)
             .navigationBarTitle("Financeiro")
             .navigationBarHidden(true)
         }
+        
     }
 }
 
